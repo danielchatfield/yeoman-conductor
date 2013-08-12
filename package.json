@@ -1,6 +1,6 @@
 {
   "name": "yeoman-conductor",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A module that let's you run a yeoman generator from another one.",
   "homepage": "https://github.com/danielchatfield/yeoman-conductor",
   "bugs": "https://github.com/danielchatfield/yeoman-conductor/issues",
