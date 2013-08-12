@@ -1,6 +1,6 @@
 'use strict';
 
-var conductor = require('../lib/yeoman-conductor.js');
+var conductor = require('../lib/conductor.js');
 
 /*
   ======== A Handy Little Nodeunit Reference ========
