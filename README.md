@@ -7,14 +7,13 @@ Install the module with: `npm install yeoman-conductor`
 
 ```javascript
 var conductor = require('yeoman-conductor');
-var oldGenerator = require('generator-something');
 
-conductor.extend(newGenerator, oldGenerator);
+myGenerator.prototype.runOldGenerator = function() {
+    var cb = this.async();
+    var generator = conductor.run('generator-name', cb);
+}
 ```
 
-## Documentation
-
-### conductor.extend(newGenerator, oldGenerator)
 
 ## License
 Copyright (c) 2013 Daniel Chatfield. Licensed under the MIT license.
